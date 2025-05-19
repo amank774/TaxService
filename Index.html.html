@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aman Jaiswal - GST & Tax Filing Expert</title>
+<style>
+  /* Reset and base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f2fe 0%, #f9fafb 100%);
+    color: #1e293b;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  a:hover, a:focus {
+    color: #0369a1;
+    outline: none;
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  header {
+    padding: 40px 20px 20px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    color: #2563eb;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  header p {
+    margin-top: 12px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #475569;
+  }
+  section.hero {
+    background: #2563eb;
+    color: white;
+    padding: 80px 20px 100px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+  .hero h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 20px;
+    letter-spacing: 0.05em;
+  }
+  .hero p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.85;
+    line-height: 1.5;
+  }
+  section.services {
+    margin: 80px 0 120px;
+  }
+  section.services h3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #2563eb;
+    margin-bottom: 48px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 36px;
+    padding: 0 10px;
+  }
+  .service-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgb(37 99 235 / 0.15);
+    padding: 32px 28px 36px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover, .service-card:focus-within {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgb(37 99 235 / 0.3);
+    outline: none;
+  }
+  .service-icon {
+    font-size: 50px;
+    color: #2563eb;
+    margin-bottom: 20px;
+    user-select: none;
+  }
+  .service-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #174ea6;
+  }
+  .service-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #475569;
+    line-height: 1.5;
+  }
+  footer {
+    background: #f3f4f6;
+    color: #6b7280;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.95rem;
+    letter-spacing: 0.03em;
+  }
+  footer p {
+    margin: 6px 0;
+  }
+  footer a {
+    color: #2563eb;
+    font-weight: 600;
+  }
+  footer a:hover, footer a:focus {
+    color: #174ea6;
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2.25rem;
+    }
+    section.hero h2 {
+      font-size: 2rem;
+    }
+    section.services h3 {
+      font-size: 1.7rem;
+    }
+  }
+</style>
+<!-- FontAwesome CDN -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Aman Jaiswal</h1>
+  <p>Your Trusted GST &amp; Tax Filing Expert</p>
+</header>
+
+<section class="hero" aria-label="Introduction">
+  <h2>Professional GST &amp; Tax Filing Services Tailored For You</h2>
+  <p>Helping individuals and businesses simplify GST registration, filing, and tax returns with accuracy and care.</p>
+</section>
+
+<main class="container" role="main">
+  <section id="services" class="services" aria-label="Services offered">
+    <h3>What I Offer</h3>
+    <div class="service-grid">
+
+      <article class="service-card" tabindex="0" aria-labelledby="service1-title" aria-describedby="service1-desc">
+        <div class="service-icon" aria-hidden="true"><i class="fas fa-file-invoice"></i></div>
+        <h4 class="service-title" id="service1-title">GST Registration</h4>
+        <p class="service-desc" id="service1-desc">Efficient assistance for new GST registrations or updates to your existing GST number, ensuring smooth compliance.</p>
+      </article>
+
+      <article class="service-card" tabindex="0" aria-labelledby="service2-title" aria-describedby="service2-desc">
+        <div class="service-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+        <h4 class="service-title" id="service2-title">GST Returns Filing</h4>
+        <p class="service-desc" id="service2-desc">Timely filing of returns including GSTR-1, GSTR-3B, and annual returns to keep you compliant and penalty-free.</p>
+      </article>
+
+      <article class="service-card" tabindex="0" aria-labelledby="service3-title" aria-describedby="service3-desc">
+        <div class="service-icon" aria-hidden="true"><i class="fas fa-calculator"></i></div>
+        <h4 class="service-title" id="service3-title">Income Tax Filing</h4>
+        <p class="service-desc" id="service3-desc">Accurate preparation and filing of individual &amp; business income tax returns, maximizing your benefits.</p>
+      </article>
+
+      <article class="service-card" tabindex="0" aria-labelledby="service4-title" aria-describedby="service4-desc">
+        <div class="service-icon" aria-hidden="true"><i class="fas fa-headset"></i></div>
+        <h4 class="service-title" id="service4-title">Consultation &amp; Support</h4>
+        <p class="service-desc" id="service4-desc">Personalized advice and prompt support to answer your GST and tax-related questions with clarity.</p>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo" aria-label="Contact Information">
+  <p>Contact me: <a href="mailto:Amankumar15141@gmail.com">Amankumar15141@gmail.com</a> | Phone: <a href="tel:+919643142691">+91 96431 42691</a></p>
+  <p>© 2025 Aman Jaiswal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
